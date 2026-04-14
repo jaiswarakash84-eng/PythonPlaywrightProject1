@@ -1,0 +1,43 @@
+OOP (object oriented programming)
+
+it a way of organizing your code by grouping related data and behaviours into objects.
+
+Class - its like a blueprint, it define what should something have(data) and what it can do (action)
+
+Object - The actual thing build from the blueprint
+
+e.g - Car is the class, your specific red toyota is object
+
+Attribute - Variables that belongs to the object (e.g - color, brand)
+Method - Functions that belongs to the object (e.g - drive(), brake())
+
+Pillers of OOP -
+1) Encapsulation
+This is about keeping your data safe inside the "capsule" of the object. You restict direct access of
+some data so people don't accidentally mess it up
+
+2) Inheritance -
+Inheritance allow a "child" class to derive attribute and methods from the "parent" class. this helps you
+avoid repeating the code
+
+3) Polymorphism -
+it allow different classes to be treated as if they were the same type
+in simple terms, multiple class can have the same methods of the same name but they behave differently
+
+4) Abstraction -
+It involves hiding complex implentation details and showing only the necessay features to the user
+
+
+Summary Table -
+
+Piller                       Meaning                          Real world example
+Encapsulation          keeping data private/safe            A capsule hiding medicine
+
+Inheritance            Reused code from the parant          A child inheriting eye color from
+                       class                                parent class
+
+Polymorphism           Same action, different               A play button works for music, video
+                       result                               and game
+
+Abstraction            Hiding the complex details           Driving car without knowing how the
+                                                            engine works
