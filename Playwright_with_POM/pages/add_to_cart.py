@@ -11,7 +11,7 @@ class AddToCart:
         self.enter_last_name_input = page.locator("#last-name")
         self.enter_pincode_input = page.locator("#postal-code")
         self.click_continue = page.locator("input[data-test='continue']")
-        self.click_finish = page.locator("input[data-test='finish']")
+        self.click_finish = page.locator("button[data-test='finish']")
 
     #Actions
 

@@ -1,9 +1,11 @@
 import pytest
 from playwright.sync_api import Page, expect
+
 from pages.login_page import LoginPage
 from pages.add_to_cart import AddToCart
+from pages.logout_page import LogoutPage
 
-def test_add_to_cart(page: Page):
+def test_logout(page:Page):
 
     #login -- first
     login_page = LoginPage(page)
@@ -23,4 +25,10 @@ def test_add_to_cart(page: Page):
     add_to_cart.enter_pincode("400022")
     add_to_cart.click_continue_icon()
     add_to_cart.click_finish_icon()
+    page.wait_for_timeout(5000)
+
+    #logout
+    logout_page = LogoutPage(page)
+    logout_page.click_menu()
+    logout_page.click_logout()
     page.wait_for_timeout(5000)
