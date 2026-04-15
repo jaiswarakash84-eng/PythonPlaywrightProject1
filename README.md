@@ -38,7 +38,7 @@ ToolPurposePython 3.14Programming languagePlaywrightBrowser automation libraryPy
 
 🛠️ Setup & Installation
 1. Clone the repository
-bashgit clone https://github.com/your-username/your-repo-name.git
+bashgit clone https://github.com/jaiswarakash84-eng/PythonPlaywrightProject1
 cd your-repo-name
 2. Create and activate virtual environment
 bashpython -m venv .venv
